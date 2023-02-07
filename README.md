@@ -14,14 +14,14 @@ Copy jflex-run to your PATH and make it executable.
 `jflex-run [Options]`
 
 #### Options
--h          Displays the help message and exits.
--j <file>   Use <file> as jflex lexical specification file.
--s <file>   Use <file> as source code file.
--c <file>   (Optional) Use <file> as cup specification file.
--l <dir>    (Optional) Path to library directory. Multiple library directories can be specified by separating them with ':' (as in <dir>:<dir>).
+- -h          Displays the help message and exits.
+- -j <file>   Use <file> as jflex lexical specification file.
+- -s <file>   Use <file> as source code file.
+- -c <file>   (Optional) Use <file> as cup specification file.
+- -l <dir>    (Optional) Path to library directory. Multiple library directories can be specified by separating them with ':' (as in <dir>:<dir>).
 
 ### Notes
-- To use java-cup you must have the 'java-cup-<version>.jar' and java-cup-<version>-runtime.jar' files in your /path/to/jflex/lib/ directory (you can specify this directory by setting the 'JFLEXLIB' variable or by using the '-l' option.
+To use java-cup you must have the 'java-cup-<version>.jar' and java-cup-<version>-runtime.jar' files in your /path/to/jflex/lib/ directory (you can specify this directory by setting the 'JFLEXLIB' variable or by using the '-l' option.
 
 ### Help
-- Check the source code, it's the best documentation
+Check the source code, it's the best documentation
