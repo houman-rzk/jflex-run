@@ -1,5 +1,6 @@
 # jflex-run
 A script that automates working with jflex and java-cup through the CLI.
+
 Running the script will compile both the jflex lexical and java-cup syntactical analyzers before feeding them the source file to be analyzed.
 
 ### Dependencies
