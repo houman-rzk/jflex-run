@@ -41,7 +41,7 @@ jflexRun() {
     java "$output" "$sourceFile" || { echo "ERROR - Error in execution" && exit 1 ;}
     
     # Cleanup
-    rm "$output"*.java* > /dev/null 2>&1 ; rm "$output"*.class* > /dev/null 2>&1
+    #rm "$output"*.java* > /dev/null 2>&1 ; rm "$output"*.class* > /dev/null 2>&1
 }
 
 # Run with cup
@@ -72,7 +72,7 @@ jflexCupRun() {
     java -cp "$JFLEXLIB":. "$executable" "$sourceFile" || { echo "ERROR - Error in execution" && exit 1 ;}
 
     # Cleanup
-    rm ./*.java* > /dev/null 2>&1 ; rm ./*.class* > /dev/null 2>&1
+    #rm ./*.java* > /dev/null 2>&1 ; rm ./*.class* > /dev/null 2>&1
 }
 
 
