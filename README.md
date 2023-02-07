@@ -4,7 +4,7 @@ Running the script will compile both the jflex lexical and java-cup syntactical 
 
 ### Dependencies
 - jflex
-- java-cup
+- java-cup (optional, see Notes below)
 
 ### Installation
 Copy jflex-run to your PATH and make it executable.
