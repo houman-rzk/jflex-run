@@ -15,7 +15,7 @@ Copy jflex-run to your PATH and make it executable.
 
 #### Options
 - -h          Displays the help message and exits.
-- -j <file>   Use <file> as jflex lexical specification file.
+- -j \<file\>   Use <file> as jflex lexical specification file.
 - -s <file>   Use <file> as source code file.
 - -c <file>   (Optional) Use <file> as cup specification file.
 - -l <dir>    (Optional) Path to library directory. Multiple library directories can be specified by separating them with ':' (as in <dir>:<dir>).
