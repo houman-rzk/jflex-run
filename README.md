@@ -14,7 +14,7 @@ Copy jflex-run to your PATH and make it executable.
 ### Usage
 `jflex-run [Options]`
 
-Example: 'jflex-run -j lexic.jflex -c syntactic.cup -s source.txt'
+Example: `jflex-run -j lexic.jflex -c syntactic.cup -s source.txt`
 
 #### Options
 - `-h`          Displays the help message and exits.
